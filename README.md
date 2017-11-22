@@ -8,7 +8,8 @@ Catherine López
 
 Gabriel Molina
 
-<“La unidad es la variedad, y la variedad en la unidad es la ley suprema del universo”, Isaac Newton.
+> “La unidad es la variedad, y la variedad en la unidad es la ley suprema del universo”, Isaac Newton.
+
 ----------------------------------------------
 # traductor de estructuras
 ----------------------------------------------
@@ -18,7 +19,7 @@ parte mas importante al momento de ver una estructura.
 
 ## Desarrollo
 
-
+ 
 ### Estructuras
 
 -CirularLinkedList
