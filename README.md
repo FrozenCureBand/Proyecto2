@@ -1,8 +1,13 @@
 # Proyecto2
+
 Repositorio proyecto 2 prograavanzada 2017
+
 Jose  Marroquin
+
 Catherine López
+
 Gabriel Molina
+
 <“La unidad es la variedad, y la variedad en la unidad es la ley suprema del universo”, Isaac Newton.
 ----------------------------------------------
 # traductor de estructuras
