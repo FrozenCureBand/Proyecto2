@@ -1,18 +1,24 @@
 # Proyecto2
 Repositorio proyecto 2 prograavanzada 2017
 
-#'Estructuras'
+# Estructuras
 
-CirularLinkedList
+-CirularLinkedList
 
-DoubleLinkedList
+-DoubleLinkedList
 
-LinkedList
+-LinkedList
 
-Position
+-Position
 
-Queue
+-Queue
 
-Stack
+-Stack
+
+# Java FX
+
+-Main
+
+-HomePageController
 
 
