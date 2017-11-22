@@ -14,7 +14,7 @@ Gabriel Molina
 # traductor de estructuras
 ----------------------------------------------
 
-![Imgur](https://imgur.com/a/yVm8u)
+![Imgur](https://imgur.com/B760qcR)
 
 
 ### Objetivo
