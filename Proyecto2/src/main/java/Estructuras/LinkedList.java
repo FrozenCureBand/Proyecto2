@@ -1,5 +1,12 @@
 package Estructuras;
-
+import guru.nidi.graphviz.engine.Format;
+import guru.nidi.graphviz.engine.Graphviz;
+import guru.nidi.graphviz.model.MutableGraph;
+import guru.nidi.graphviz.parse.Parser;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileWriter;
+import java.io.PrintWriter;
 public class LinkedList<E> implements Stack<E>, Queue<E>{
 
 	/**
@@ -25,8 +32,11 @@ public class LinkedList<E> implements Stack<E>, Queue<E>{
 		public void setNext(Node<E> next) {
 			this.next = next;
 		}
+		
+		
 	}
-
+	
+	           
 	private Node<E> head = null;
 	private Node<E> tail = null;
 	
