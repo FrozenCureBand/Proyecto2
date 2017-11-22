@@ -14,7 +14,7 @@ Gabriel Molina
 # traductor de estructuras
 ----------------------------------------------
 
-![Imgur](http://www.it.uc3m.es/java/2012-13/units/arboles/guides/2/img/stack2ast.jpg)
+![Imgur](https://imgur.com/a/yVm8u)
 
 
 ### Objetivo
