@@ -13,6 +13,9 @@ Gabriel Molina
 ----------------------------------------------
 # traductor de estructuras
 ----------------------------------------------
+![Imgur] (http://www.it.uc3m.es/java/2012-13/units/arboles/guides/2/img/stack2ast.jpg)
+
+
 ### Objetivo
 Realización de graficas de las estructuras vistas en clase, la cual es la 
 parte mas importante al momento de ver una estructura.
