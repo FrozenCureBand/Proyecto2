@@ -24,7 +24,7 @@ parte mas importante al momento de ver una estructura.
 ## Desarrollo
 Desea mostrar la estructuras vistas en clases en un metodo grafico, leyendo un documento txt y comparando entre las estructuras 
 que se tienen y se aprendieron, mostrando asi la grafica de la estructura correcta.
- 
+![Imgur]( https://i.imgur.com/nzU685T.png)
 ### Estructuras
 
 -CirularLinkedList
