@@ -39,6 +39,8 @@ que se tienen y se aprendieron, mostrando asi la grafica de la estructura correc
 
 ### Estructuras
 
+![Imgur](https://i.imgur.com/ZkrAJ7h.png)
+
 -CirularLinkedList
         
 -DoubleLinkedList
