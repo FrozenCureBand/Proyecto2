@@ -1,16 +1,24 @@
 package gt.url.edu.demoestructuras.graphviz;
 
+
+
+import Estructuras.CircularLinkedList;
+import Estructuras.DoubleLinkedList;
+import Estructuras.ImplQueue;
+import Estructuras.ImplStack;
+import Estructuras.LinkedList;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import static java.lang.Math.E;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
 
-public class FileLoader  {
+public  class FileLoader {
 
 //	public void loadFileWithJava7() {
 //		File file = new File("/Users/tuxtor/Downloads/linked_list.dot");
@@ -47,30 +55,37 @@ public class FileLoader  {
                 else
                 {
                  //5 4 3 2 1
+                    ImplStack implStack=new ImplStack();
                     String[] numbers = sCurrentLine.split(" ");
                     for (int i = 0; i < numbers.length; i++) {
+                          implStack.push(numbers[i]);
+                          
                     
                     }      
                        
                 }
-                     if (sCurrentLine == "BinaryTree") 
+                 /*    if (sCurrentLine == "BinaryTree") 
                 {
                     tipoEstructura = "BinaryTree";
                 }  else {
                     //5 4 3 2 1
+                    
                     String[] number = sCurrentLine.split(" ");
                     for (int i = 0; i < number.length; i++) {
                        
                         }   
-                     }
+                     }*/
                if (sCurrentLine == "queue") 
                 {
                     tipoEstructura = "queue";
                 }  else {
                     //5 4 3 2 1
+                    ImplQueue implQueue=new ImplQueue();
                     String[] num = sCurrentLine.split(" ");
                     for (int i = 0; i < num.length; i++) {
-                        
+                      
+                      implQueue.enqueue(num[i]);
+
                         }
                     }
                     
@@ -79,9 +94,10 @@ public class FileLoader  {
                     tipoEstructura = "LinkedList";
                 }  else {
                     //5 4 3 2 1
+                    LinkedList linkedList=new LinkedList();
                     String[] numbe = sCurrentLine.split(" ");
                     for (int i = 0; i < numbe.length; i++) {
-                        
+                       linkedList.addFirst(numbe[i]);
                         }
                     }
                 if (sCurrentLine == "CircularLinkedList") 
@@ -89,9 +105,10 @@ public class FileLoader  {
                     tipoEstructura = "CircularLinkedList";
                 }  else {
                     //5 4 3 2 1
+                    CircularLinkedList circularLinkedList=new CircularLinkedList();
                     String[] numb = sCurrentLine.split(" ");
                     for (int i = 0; i < numb.length; i++) {
-                       
+                       circularLinkedList.addFirst(numb[i]);
                         } 
                 }
                      if (sCurrentLine == "DoubleLinkedList") 
@@ -99,13 +116,13 @@ public class FileLoader  {
                     tipoEstructura = "DoubleLinkedList";
                 }  else {
                     //5 4 3 2 1
-                    
+                    DoubleLinkedList doubleLinkedList=new DoubleLinkedList();
                     String[] num = sCurrentLine.split(" ");
                     for (int i = 0; i < num.length; i++) {
-                       
+                       doubleLinkedList.addFirst(num[i]);
                         }   
                 } 
-                          if (sCurrentLine == "btree") 
+                /*          if (sCurrentLine == "btree") 
                 {
                     tipoEstructura = "btree";
                 }  else {
@@ -116,7 +133,7 @@ public class FileLoader  {
                         }   
                 } 
                      
-            }
+           */ }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
