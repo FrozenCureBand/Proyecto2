@@ -29,6 +29,10 @@ que se tienen y se aprendieron, mostrando asi la grafica de la estructura correc
 
 ![Imgur]( https://i.imgur.com/nzU685T.png)
 
+-Pantalla con Documento
+
+![Imgur](https://i.imgur.com/0H24hVU.png)
+
 ### Estructuras
 
 -CirularLinkedList
