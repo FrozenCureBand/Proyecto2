@@ -33,6 +33,10 @@ que se tienen y se aprendieron, mostrando asi la grafica de la estructura correc
 
 ![Imgur](https://i.imgur.com/0H24hVU.png)
 
+#### Lectura de los datos del .txt
+
+![Imgur](https://i.imgur.com/fOopB2S.png)
+
 ### Estructuras
 
 -CirularLinkedList
